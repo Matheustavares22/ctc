@@ -31,9 +31,7 @@ public class Main {
 		 
 		for (int i = 0; i < phraseUses.size(); i++) {
 			System.out.println(phraseUses.get(i) + Strings.FINAL_INFORMATION + Strings.PHRASE[i]);
-		}
-		
-		//System.out.println(Strings.FINAL_INFORMATION + "\nCom a seguinte quantidade de usos: ");
+		}		
 		
         long fim = System.currentTimeMillis();
         System.out.println(timePassed(initialTime, fim) + Strings.TIME_INFORMATION);
